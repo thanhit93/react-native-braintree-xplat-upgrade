@@ -3,14 +3,27 @@
   "version": "4.0.1",
   "description": "Cross platform Braintree module",
   "main": "index",
-  "author": {
-    "name": "Thanh Truong",
-    "email": "truongthanhcn12@gmail.com",
-    "url": "https://github.com/thanhit93"
-  },
-  "license": "MIT",
+  "author": "Thanh Truong <truongthanhcn12@gmail.com> (https://github.com/thanhit93)",
+  "license": "UNLICENSED",
   "respository": {
     "type": "git",
     "url": "git@github.com:thanhit93/react-native-braintree-xplat-upgrade.git"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhit93/react-native-braintree-xplat-upgrade.git"
+  },
+  "keywords": [
+    "react-native-braintree-xplat-upgrade"
+  ],
+  "bugs": {
+    "url": "https://github.com/thanhit93/react-native-braintree-xplat-upgrade/issues"
+  },
+  "homepage": "https://github.com/thanhit93/react-native-braintree-xplat-upgrade#readme"
 }
