@@ -1,5 +1,5 @@
 # react-native-braintree-xplat
-[![npm version](https://badge.fury.io/js/react-native-braintree-xplat.svg)](https://badge.fury.io/js/react-native-braintree-xplat)
+[![npm version](https://badge.fury.io/js/react-native-braintree-xplat-upgrade.svg)](https://badge.fury.io/js/react-native-braintree-xplat-upgrade)
 
 An effort to merge react-native-braintree and react-native-braintree-android
 
@@ -17,15 +17,15 @@ or do it manually as described below:
 4. Done!
 
 ## Android Installation
-Run `npm install react-native-braintree-xplat --save`
+Run `npm install react-native-braintree-xplat-upgrade --save`
 ### RN 0.29 and over
 
 In `android/settings.gradle`
 ```gradle
 ...
 
-include ':react-native-braintree-xplat'
-project(':react-native-braintree-xplat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-braintree-xplat/android')
+include ':react-native-braintree-xplat-upgrade'
+project(':react-native-braintree-xplat-upgrade').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-braintree-xplat/android')
 ```
 
 In `android/app/build.gradle`
@@ -36,7 +36,7 @@ In `android/app/build.gradle`
 dependencies {
     ...
 
-    compile project(':react-native-braintree-xplat')
+    compile project(':react-native-braintree-xplat-upgrade')
 }
 ```
 
@@ -78,8 +78,8 @@ In `android/settings.gradle`
 ```gradle
 ...
 
-include ':react-native-braintree-xplat'
-project(':react-native-braintree-xplat').projectDir = file('../node_modules/react-native-braintree-xplat/android')
+include ':react-native-braintree-xplat-upgrade'
+project(':react-native-braintree-xplat-upgrade').projectDir = file('../node_modules/react-native-braintree-xplat-upgrade/android')
 ```
 
 In `android/app/build.gradle`
@@ -90,7 +90,7 @@ In `android/app/build.gradle`
 dependencies {
     ...
 
-    compile project(':react-native-braintree-xplat')
+    compile project(':react-native-braintree-xplat-upgrade')
 }
 ```
 
@@ -138,7 +138,7 @@ public class MainActivity extends ReactActivity {
 
 ### Setup
 ```js
-var BTClient = require('react-native-braintree-xplat');
+var BTClient = require('react-native-braintree-xplat-upgrade');
 BTClient.setup(<token>);
 ```
 You can find a demo client token [here](https://developers.braintreepayments.com/start/hello-client/ios/v3).
